@@ -1,5 +1,5 @@
 
-    var array = ["Wolf", "One Tree Hill", "Tide add", "Klaus", "kill bill", "Overwatch", "one piece", "Tennis", "Joe Rogan", "Tom Segura"];
+    var array = ["Wolf", "One Tree Hill", "Tide add", "Klaus", "kill bill", "Overwatch", "one piece", "Tennis", "naruto", "supernatural"];
 
     // FUNCTION FOR GIF'S
     function shoGif() {
