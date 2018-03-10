@@ -1,0 +1,103 @@
+body {
+	font-family: 'Rokkitt', serif;
+	background-image: url(../images/giffy.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.jumbotron-fluid {
+	border-bottom: solid violet 1px;
+	background-image: url(../images/giphy.gif);
+	/*background-image: url(../images/space.gif);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 60px;
+}
+	h1 {
+		font-family: 'Barlow Semi Condensed', sans-serif;
+		color: #000;
+		font-size: 50px;
+		display:inline-block;
+		font-weight: 700;
+	}
+		h1#tube {
+			background: linear-gradient(to right, darkviolet ,violet);
+			color:#def;
+			border-radius: 12px;
+			border: solid darkviolet 1px;
+			padding: 0 2px 0 2px;
+		}
+
+.jumbotron {
+	/*background-image: url(../images/space.gif);*/
+	background-color: rgba(0, 0, 0, 0.01);
+	background-position: top;
+	background-size: cover;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+	button.gif {
+		color: violet;
+		font-size: 18px;
+		border-color:#000;
+		background-color: #000;
+		margin: 0 10px 20px 10px;
+	}
+	button.gif:hover {
+		color:#fed;
+		border-color:#000;
+		background-color: #000;
+	}
+	input#gif-input {
+		background: rgba(10, 14, 76, 0.5);
+		color:violet;
+		border:none;
+		text-align: center;
+		font-size: 18px;
+	}
+	input#gif-input:hover {
+		background: rgba(10, 14, 76, 1)
+	}
+	input#add-gif {
+		font-size: 22px;
+	    color: #def;
+	    background: darkviolet;
+	    border: solid black 3px;
+	    letter-spacing: 2px;
+	    font-weight: 700;
+	}
+	input#add-gif:hover {
+		color: #fed;
+	    background: violet;
+	    border-color: #333;
+	    opacity: 0.8;
+	}
+		label {
+			color: #def;
+			font-size: 22px;
+		}
+		label:hover {
+			color:#fed;
+		}
+hr {
+	border-bottom: solid violet 1px;
+}
+div#gifContent.container {
+	color:#def;
+	font-size:14px;
+}
+div.gifImg {
+	float:left;
+}
+	h2 {
+		font-size: 35px;
+	}
+
+/*
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Patua One', cursive;
+font-family: 'Rokkitt', serif;
+font-family: 'Permanent Marker', cursive;
+*/
